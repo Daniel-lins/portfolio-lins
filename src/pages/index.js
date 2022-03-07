@@ -27,9 +27,10 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             Desenvolvedor Front-end e estudante de analise e desenvolvimento de
-            sistemas. Com foco no ReactJS, uso typescript, Eslint, Prettier e
+            sistemas. Com foco no ReactJS.Uso typescript, Eslint, Prettier e
             EditorConfig para padronização de código.Sempre buscando uma
-            organização de pastas e um código limpo
+            organização de pastas e um código limpo.Uso git para o versionamento
+            de código, Jest para fazer os testes das aplicações.
           </p>
           <div className="social-icons">
             {config.socialLinks.map((social) => {
