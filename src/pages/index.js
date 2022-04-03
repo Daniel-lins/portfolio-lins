@@ -52,7 +52,7 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experiencia/Projetos</h2>
+          <h2 className="mb-5">Experiência/Projetos</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-center text-center mb-5 card">
             <div className="resume-content">
