@@ -4,6 +4,7 @@ import weather from '../assets/img/weather1.png';
 import multi1 from '../assets/img/multi1.png';
 import expenser from '../assets/img/expenser.png';
 import Layout from '../components/Layout';
+import styles from '.styles.css';
 
 import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -60,7 +61,12 @@ const IndexPage = () => (
               <div className="subheading mb-3">
                 ReactJS | MaterialUI | Axios
               </div>
-              <img src={filmes} alt="imagem do progejeto" width="500px" />
+              <img
+                src={filmes}
+                className="projectImg"
+                alt="imagem do progejeto"
+                width="500px"
+              />
               <p text-align="center">
                 {/* Projeto criado usando ReactJs , MateriealUI e axios.<br></br>No */}
                 Para o projeto usei o axios para pegar informações da API do The
@@ -100,7 +106,12 @@ const IndexPage = () => (
                 ReactJS | Typescript | Axios | Eslint | prettier | Styled
                 Components
               </div>
-              <img src={weather} alt="imagem do progejeto" width="500px" />
+              <img
+                src={weather}
+                className="projectImg"
+                alt="imagem do progejeto"
+                width="500px"
+              />
               <p>
                 Projeto retirado do repositório de desáfios do felipe fialho.{' '}
                 Projeto consiste na criação de um app de previsão do tempo. Para
@@ -138,7 +149,12 @@ const IndexPage = () => (
                 ReactJS | Typescript | Context Api | Eslint | prettier | Styled
                 Components
               </div>
-              <img src={multi1} alt="imagem do progejeto" width="500px" />
+              <img
+                src={multi1}
+                className="projectImg"
+                alt="imagem do progejeto"
+                width="500px"
+              />
               <p>
                 Projeto feito na semana 5 em 5 do Boniek Lacerda.<br></br>
                 Projeto consiste em um formulario de cadastro de programadores.
@@ -176,7 +192,12 @@ const IndexPage = () => (
                 {' '}
                 ReactJS | Typescript | Eslint | prettier | Styled Components
               </div>
-              <img src={expenser} alt="imagem do progejeto" width="500px" />
+              <img
+                src={expenser}
+                className="projectImg"
+                alt="imagem do progejeto"
+                width="500px"
+              />
               <p>
                 Projeto feito na semana 5 em 5 do Boniek Lacerda.<br></br>
                 Projeto é um gerenciador financeiro .<br></br>
